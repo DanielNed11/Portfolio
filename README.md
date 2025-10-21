@@ -1,45 +1,16 @@
-# Personal Portfolio
+# React + Vite
 
-Welcome to my portfolio repository!  
-I'm **Daniel Nedyalkov**, a second-year **Applied Computer Science** student passionate about building software that connects creativity and functionality.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🧩 About Me
-🎓 Studying Applied Computer Science at Karel de Grote University of Applied Sciences.  
-💻 Passionate about full-stack development, embedded systems, and game design.  
-🚀 Always learning, experimenting, and building new ideas.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
----
+## React Compiler
 
-## 🛠️ Technical Skills
-**Languages:** Java, Python, C, C++, C#, JavaScript, SQL, PostgreSQL  
-**Web Development:** HTML, CSS, Bootstrap, React  
-**Frameworks & Tools:** Spring Boot, JavaFX, Flask, Arduino, Git, IntelliJ, VS Code  
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
----
+## Expanding the ESLint configuration
 
-## 📁 Projects
-Here are a few highlights:
-- 🎮 **Blockade Game (JavaFX)** – 3D board game recreation using MVP architecture and AI logic.  
-- 💧 **Clean Tank (IoT System)** – Arduino-based water quality monitor integrated with Flask and Spring Boot backend.  
-- 🏎️ **F1 Manager Web App** – Spring Boot + Thymeleaf project managing teams, races, and drivers.  
-- ⚙️ **Metal Detector Grid Game (AVR C)** – Embedded game using buzzer feedback and grid movement logic.
-
-*(More coming soon!)*
-
----
-
-## 🎯 Goals
-- Develop my personal web portfolio using React and Bootstrap.  
-- Continue learning backend integration and cloud deployment (Spring Boot + Docker).  
-- Contribute to open-source projects and grow as a full-stack developer.
-
----
-
-## 📫 Contact
-📧 Email: [dani.nedqlkow@gmail.com]  
-
----
-
-⭐ *Feel free to explore my repositories or reach out for collaborations!*
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
